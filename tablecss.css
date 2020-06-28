@@ -1,0 +1,32 @@
+table{
+	
+	width:100%;
+	border-collapse:collapse;
+	
+}
+
+td{
+	height:50px;
+	padding:10px 10px ;
+	text-align:center;
+}
+.table {
+	border:1px solid grey
+}
+.heading{
+	background-color:#1422FA;
+	color:white;
+	border-right:white;
+	
+	
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

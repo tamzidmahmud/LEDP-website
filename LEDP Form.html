@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	
+		<title>Registration Form</title>
+		<link rel="shortcut icon" type="image/png" href="image/icon.jpg">
+		<link type="text/css" rel="stylesheet" href="css/ledp form css.css">
+		</--link rel="stylesheet" type="text/css" href="css/homemenucss.css"--/>
+		<link rel="stylesheet" type="text/css" href="css/memucss.css">
+	
+		
+	</head>
+	
+	
+	<body>
+		<div class="content">
+			
+			<img src="image/banner.png" width="100%">
+			
+			<div class="nav">
+				<div class="menu">
+					<a href="home.html">Home</a>
+					<a class="active" href="LEDP form.html" >Course Registration/Assesment</a>
+					<a href="module.html">Course Module-2020</a>
+					<a href="https://ledp.ictd.gov.bd/manage_class_schedule">Class Schedule</a>
+					<a href="https://ledp.ictd.gov.bd/manage_success_story">Success Story</a>
+					<a href="https://ledp.ictd.gov.bd/attendance_report">Attendance</a>
+					<a href="http://103.48.16.124/LEDP_trainee_guideline.pdf">FAQ</a>
+					<a href="https://ledp.ictd.gov.bd/login">Login</a>
+				</div>
+			</div>
+			<br>
+			<h1>Student Registration Form</h1>
+				<div class="form1">
+				<form action="submitted.html" method="get"><br>
+					<h2> Please enter relevant information</h2><br>
+				<div class="left">
+					<h6>Mandatory Field*</h6>	
+					
+					District*<br>
+					<input list="District" placeholder="Select One" size="50%" required>
+						<datalist id="District">
+							<option value="Dhaka">
+							<option value="Chittagong">
+							<option value="Rajshahi">
+							<option value="Khulna">
+							<option value="Cumilla">
+							<option value="Barishal">
+							<option value="Sylhet">
+						</datalist><br>
+						
+					Course*<br>
+					<input list="Course" Placeholder="Select One" size="50" required>
+						<datalist id="Course">
+							<option value="Web Design & Development-2020">
+							<option value="Graphic Design-2020">
+							<option value="Digital Marketing-2020">
+						</datalist><br>
+						
+					Student Name*<br>
+					<input type="text" name="student name" required size="50"><br>
+					
+					Father Name*<br>
+					<input type="text" name="father name" required size="50"><br>
+					
+					
+					Mother Name*<br>
+					<input type="text" name="student name" required size="50"><br>
+					<fieldset style="width:300px">
+						<legend>Date Of Birth*</legend>
+						<input type="date" id="birthdate" placeholder="select your birth date" required size="50">
+					</fieldset><br>
+					Gender*:
+					<input type="radio" name="gender" required>Male
+					<input type="radio" name="gender" required>Female<br><br>
+					
+					Physically Handicapped*:
+					<input type="radio" name="PhysicallyHandicapped" required>Yes
+					<input type="radio" name="PhysicallyHandicapped" required>No<br><br>
+					
+					Email*<br>
+					<input type="email" name="email" placeholder="example@gmail.com" required size="50"><br><br>
+					
+					Phone(Must be 11 digits)*<br>
+					
+					<input type="phone" name="phone" placeholder="e.g:01521400278" required size="50">
+				
+				</div>
+				<div class="right">
+					Identification Type* <br>
+					<input list="identification" placeholder="Select One" required size="50%" >
+						<datalist id="identification">
+							<option value="Birth Certificate No.">
+							<option value="National ID">
+						</datalist><br>
+					<label>Identification no. (must be 10 digits for ne NID or 17 digits for old NID.If your National ID 13 digits,then please add your birth year with the ID as prefix.Example:1980XXXXXXXXXXXXX)<br>
+					<input type="text" size="50" required><br>
+					Home District*<br>
+					<input list="District" placeholder="Select One" required size="50">
+						<datalist id="District">
+							<option value="Dhaka">
+							<option value="Chittagong">
+							<option value="Rajshahi">
+							<option value="Khulna">
+							<option value="Cumilla">
+							<option value="Barishal">
+							<option value="Sylhet">
+						</datalist><br>
+						
+					Upazilla*<br>
+					<input list="District" placeholder="Select One" required size="50px">
+						<datalist id="District">
+							<option value="Dhaka">
+							<option value="Chittagong">
+							<option value="Rajshahi">
+							<option value="Khulna">
+							<option value="Cumilla">
+							<option value="Barishal">
+							<option value="Sylhet">
+						</datalist><br>
+						
+					Village/House No./Road No./Other alternative* <br>
+					<input type="text" name="address" size="50"><br>
+					
+					Post Office*<br>
+					<input type="text" name="postoffice " size="50"><br>
+					
+					Educational Qualification*<br>
+						<input list="Education" placeholder="Select One" required size="50">
+						<datalist id="Education">
+							<option value="Higher Secondary">
+							<option value="Bachelaor">
+							<option value="Master">
+							<option value="Ph.D">
+							
+						</datalist><br>
+						
+					Have Any Computer*:
+					<input type="radio" name="computer">Yes
+					<input type="radio" name="computer">No<br><br>
+					
+					Photograph*<br>
+					<input type="file" name="photograph" required size="50"><br>
+					(File type must be jpg or jpeg or png.Maximum file size 2 mb)<br>
+					
+					Signature*<br>
+					<input type="file" name="photograph"  required size="50"><br>
+					(File type must be jpg or jpeg or png.Maximum file size 2 mb)
+					<br><br><br>
+					
+					<input type="Submit" Value="Submit data">
+					<input type="Reset" Value="Reset">
+					
+					
+					
+				</div>
+			</form>
+			</div>
+		</div>
+	</body>
+</html>
